@@ -7,6 +7,7 @@
 ## Description
 This application will let users come to a homepage where they can add a word to a list. They can then click the word, and go to the individual page for the word, where they can enter various definitions for the word.
 
+See https://mysterious-peak-9936.herokuapp.com/ for the live demo of the page
 
 ## Setup
 ###Local setup:
