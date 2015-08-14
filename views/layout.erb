@@ -3,14 +3,20 @@
   <head>
     <title>Words and Definitions</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
-    <link rel='stylesheet' href='public/css/styles.css'>
+    <link rel='stylesheet' href='css/styles.css'>
   </head>
 
   <body>
 
     <div class='container'>
-    <%= yield %>
+      <div class='panel panel-info'>
+        <div class="panel-heading">
+          <h3 id='panel-title'>Words and Definitions</h3>
+        </div>
+        <%= yield %>
+      </div>
     </div>
 
   </body>
+
 </html>

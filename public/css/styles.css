@@ -1,0 +1,19 @@
+body {
+  height: 100%;
+  background-color: #484848;
+
+}
+
+html {
+  height: 100%;
+}
+.panel {
+  border-width: 3px;
+  border-color: black;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.panel-heading {
+  text-align: center;
+}

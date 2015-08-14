@@ -1,30 +1,50 @@
-# _{Application Name}_
+# _Words and Descriptions_
 
-##### _{Brief description of application}, {Date of current version}_
+##### _User can add words and definitions for them, 15 August 2015_
 
-#### By _**{List of contributors}**_
+#### By _**Clayton Easterbrooks**_
 
 ## Description
+This application will let users come to a homepage where they can add a word to a list. They can then click the word, and go to the individual page for the word, where they can enter various definitions for the word.
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}_
 
 ## Setup
+###Local setup:
+* Clone Repo
+* In Terminal:
+* run $ bundle
+* run $ ruby app.rb
+* In browser:
+* Navigate to localhost:4567
+* Create an entire dictionary
+* Profit
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+###Heroku Setup
+* Clone repo
+* Run bundle
+* commit & push to own repository
+* in Terminal:
+* log into heroku
+* run $ heroku create
+* run $ git push heroku master
+* run $ heroku open
+* Make a sweet glossary of street terms used in the 2015 film, Straight Outta Compton
 
-_{Leave nothing to chance! You want it to be easy for potential employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Are there other applications this app depends on?}_
+
+
 
 ## Technologies Used
 
-_{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+This app uses
+* Ruby
+* Sinatra
+* Capybara
+* Sinatra-contrib gem
+* Pry
+* Heroku
+
 
 ### Legal
-
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
 
 Copyright (c) 2015 **_{List of contribtors}_**
 
