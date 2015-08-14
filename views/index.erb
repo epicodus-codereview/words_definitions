@@ -1,0 +1,11 @@
+<h3>Welcome to the Word List</h3>
+
+
+<ul>
+<% @list.each do |word| %>
+<li><a href="/word/<%= word.id() %>"><%= word.name() %></a></li>
+<% end %>
+</ul>
+
+
+<a href="/word/add">Add a word</a>
