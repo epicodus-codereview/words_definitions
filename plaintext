@@ -1,0 +1,17 @@
+Two classes. one is word, the other is definition.
+
+Need to do all the specs for word that I did for dealerships. Same with
+definitions, I think. Then we're going to be able to add defintions to a word.
+Word will contain an array called definitions, which will be something I can push
+various definitions into.
+
+In the page where I actually see each word, I will have an each loop that will
+go through the array of definitions contained within each word object and
+print them out onto the screen.
+
+After this is all done, if I have time, I'll make it into a paneled list with
+bootstrap.
+
+Need a README.md
+
+Make sure all code is factored nicely. Indented perfectly. Use descriptive variable names.
